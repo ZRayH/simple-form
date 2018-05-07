@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Basic Forms</title>
+</head>
+<body>
+
+<form id="register-user">
+    <h3>Register New User</h3>
+    First name:<br>
+    <input type="text" class="firstname" placeholder="John" autofocus required><br>
+    Last name:<br>
+    <input type="text" class="lastname" placeholder="Doe" required><br>
+    Email:<br>
+    <input type="email" class="email" placeholder="me@example.com" required><br>
+    Password:<br>
+    <input type="password" class="password" required><br>
+    Confirm Password:<br>
+    <input type="password" class="conf-password" required><br>
+    Birthdate:<br>
+    <input type="date" class="dob"><br>
+    Phone Number:<br>
+    <input type="tel" class="phone-number" placeholder="xxx-xxx-xxxx" min="9" max="14"><br>
+    Should you sass Wes?<br>
+    <input type="radio" class="Should you sass Wes?" value="Yes"> Yes<br>
+    <input type="radio" class="Should you sass Wes?" value="Of course!" checked> Of course!<br>
+    <input type="radio" class="Should you sass Wes?" value="Derp durr, no. Respect him...">Derp durr, no. Respect him...<br>
+    <input type="hidden" id="date-joined"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<form id="forgot-password">
+    <h3>Forgot password?</h3>
+    First name:<br>
+    <input type="text" class="firstname" placeholder="John" required><br>
+    Last name:<br>
+    <input type="text" class="lastname" placeholder="Doe" required><br>
+    Email:<br>
+    <input type="email" class="email" placeholder="me@example.com" required><br>
+    Birthdate:<br>
+    <input type="date" class="dob" required><br>
+    Phone Number:<br>
+    <input type="tel" class="phone-number" placeholder="xxx-xxx-xxxx" min="9" max="14" required><br>
+    <input type="submit" value="Submit">
+</form>
+
+<form id="Login">
+    <h3>Login:</h3>
+    Email:<br>
+    <input type="email" class="email" placeholder="me@example.com" required><br>
+    Password:<br>
+    <input type="password" class="password" required><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
